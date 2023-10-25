@@ -259,6 +259,7 @@ a:visited {
     font-family: 'Roboto', sans-serif;
     font-size: 24px;
     font-weight: bold;
+    border: 1px solid white;
 }
 .movie-description{
     position: relative;
@@ -266,9 +267,11 @@ a:visited {
     top: 35px;
     width: 1000px;
     height: 110px;
+    border: 1px solid white;
 }
 .movie-description p{
     font-family: 'Roboto', sans-serif;
     font-weight: lighter;
     font-size: 16.5px;
+    border: 1px solid white;
 }
