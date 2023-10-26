@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title> Movie Registration</title>
+    <link rel="stylesheet" href="../css/registration.css" />
+  </head>
+  <body>
+
+   
+
+
+    <section class="container">
+
+        <div class="navbar">
+            <div class="navbar-left">
+                <img class="bklogo" src="../images/others/pngwing.com.png" alt="">
+            </div>
+             <div class="navbar-right">
+                <button class="sign-in"><a href="../index.html">Home</a></button>
+                <img class="burger-bar" src="../images/others/burger-bar.png" alt="">
+            </div>
+        </div>
+      <header>Movie Registration</header>
+      <form action="#" class="form">
+        <div class="input-box">
+          <label>Movie Title</label>
+          <input type="text" placeholder="Enter full Movie Title" required />
+        </div>
+
+        <div class="input-box">
+          <label>Genre</label>
+          <input type="text" placeholder="Genre" required />
+        </div>
+
+        <div class="column">
+          <div class="input-box">
+            <label>Rating</label>
+            <input type="number" placeholder="Rating out of 10" required />
+          </div>
+          <div class="input-box">
+            <label>Release date</label>
+            <input
+              type="date"
+              placeholder="Enter the date of Release"
+              required
+            />
+          </div>
+        </div>
+        <div class="language-box">
+          <h3>Languages</h3>
+          <div class="language-option">
+            <div class="language">
+              <input type="radio" id="malayalam" name="language" checked />
+              <label for="malayalam">malayalam</label>
+            </div>
+            <div class="language">
+              <input type="radio" id="hindi" name="language" />
+              <label for="hindi">Hindi</label>
+            </div>
+            <div class="language">
+              <input type="radio" id="tamil" name="language" />
+              <label for="tamil">Tamil</label>
+            </div>
+          </div>
+        </div>
+        <div class="input-box description">
+          <div class="formfield">
+            <label for="textarea"></label>
+            <textarea id="textarea" rows="5" placeholder="Enter short description about the movie..." required></textarea>
+          </div>
+        </div>
+        <label for="upload">Upload Movie Banner</label>
+        <input id="upload" type="file" required />
+        <button>Submit</button>
+      </form>
+    </section>
+  </body>
+</html>
